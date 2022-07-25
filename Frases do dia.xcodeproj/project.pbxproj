@@ -56,15 +56,47 @@
 		704AF331288E2F6800BCBF1A /* Frases do dia */ = {
 			isa = PBXGroup;
 			children = (
-				704AF332288E2F6800BCBF1A /* AppDelegate.swift */,
-				704AF334288E2F6800BCBF1A /* SceneDelegate.swift */,
-				704AF336288E2F6800BCBF1A /* ViewController.swift */,
-				704AF338288E2F6800BCBF1A /* Main.storyboard */,
-				704AF33B288E2F6900BCBF1A /* Assets.xcassets */,
-				704AF33D288E2F6900BCBF1A /* LaunchScreen.storyboard */,
+				704AF349288E2FDC00BCBF1A /* ui */,
+				704AF348288E2FD100BCBF1A /* delegate */,
+				704AF347288E2FC700BCBF1A /* controller */,
+				704AF346288E2FBD00BCBF1A /* assets */,
 				704AF340288E2F6900BCBF1A /* Info.plist */,
 			);
 			path = "Frases do dia";
+			sourceTree = "<group>";
+		};
+		704AF346288E2FBD00BCBF1A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				704AF33B288E2F6900BCBF1A /* Assets.xcassets */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		704AF347288E2FC700BCBF1A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				704AF336288E2F6800BCBF1A /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		704AF348288E2FD100BCBF1A /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				704AF332288E2F6800BCBF1A /* AppDelegate.swift */,
+				704AF334288E2F6800BCBF1A /* SceneDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		704AF349288E2FDC00BCBF1A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				704AF338288E2F6800BCBF1A /* Main.storyboard */,
+				704AF33D288E2F6900BCBF1A /* LaunchScreen.storyboard */,
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
